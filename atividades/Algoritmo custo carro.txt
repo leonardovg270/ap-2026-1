@@ -1,0 +1,18 @@
+Algoritmo <custo carro>
+
+Inicio
+Real: custo_fabrica, impostos, distribuidor, custo_final
+
+escreva ("Digite o custo de fábrica do carro: ")
+leia (custo_fabrica)
+
+impostos <- custo_fabrica * 0.45
+custo_com_impostos <- custo_fabrica + impostos
+
+distribuidor <- custo_com_impostos * 0.28
+
+custo_final <- custo_com_impostos + distribuidor
+
+escreva ("O custo ao consumidor é: R$ " + custo_final)
+
+Fim

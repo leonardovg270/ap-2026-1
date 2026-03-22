@@ -1,0 +1,14 @@
+Algoritmo <conversão graus>
+
+Inicio
+Real: graus_celsius, graus_fahrenheit
+
+escreva ("Insira os graus Celsius: ")
+leia (graus_celsius)
+
+
+graus_fahrenheit <- ((9*graus_celsius) +160)
+
+escreva (graus_celsius + " é igual a " + graus_fahrenheit)
+
+Fim

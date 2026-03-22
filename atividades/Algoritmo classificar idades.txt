@@ -1,0 +1,21 @@
+Algoritmo <classificar idades>
+
+Inicio
+Inteiro: idade, i
+
+para i de 1 ate 75 faca
+
+    escreva ("Digite a idade: ")
+    leia (idade)
+
+    se (idade >= 60) então
+        escreva ("Idoso")
+    senao se (idade >= 18) então
+        escreva ("Maior de idade")
+    senao
+        escreva ("Menor de idade")
+    fimse
+
+fimpara
+
+Fim

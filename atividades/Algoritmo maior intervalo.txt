@@ -1,0 +1,28 @@
+Algoritmo <maior intervalo>
+
+Inicio
+Inteiro: n1, n2, maior
+
+escreva ("Digite o primeiro valor: ")
+leia (n1)
+
+escreva ("Digite o segundo valor: ")
+leia (n2)
+
+se (n1 > n2) então
+    maior <- n1
+senao
+    maior <- n2
+fimse
+
+escreva ("O maior número é: " + maior)
+
+se (maior >= 1 e maior <= 99) então
+    escreva ("Está no intervalo de 1 a 99")
+senao se (maior >= 100 e maior <= 199) então
+    escreva ("Está no intervalo de 100 a 199")
+senao se (maior >= 200) então
+    escreva ("É maior que 200")
+fimse
+
+Fim

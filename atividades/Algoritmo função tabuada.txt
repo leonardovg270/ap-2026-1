@@ -1,0 +1,34 @@
+Algoritmo <função tabuada>
+
+Inicio
+
+funcao tabuada(N: inteiro, O: caractere, T: inteiro)
+
+    Inteiro: i, resultado
+
+    para i de 1 ate T faca
+
+        se (O = "S") então
+            resultado <- N + i
+            escreva (N + " + " + i + " = " + resultado)
+
+        senao se (O = "SUB") então
+            resultado <- N - i
+            escreva (N + " - " + i + " = " + resultado)
+
+        senao se (O = "M") então
+            resultado <- N * i
+            escreva (N + " * " + i + " = " + resultado)
+
+        senao se (O = "D") então
+            resultado <- N / i
+            escreva (N + " / " + i + " = " + resultado)
+        fimse
+
+    fimpara
+
+fimfuncao
+
+tabuada(5, "S", 10)
+
+Fim

@@ -1,0 +1,16 @@
+Algoritmo <consumo medio>
+
+Inicio
+Real: distancia_total, total_combustivel, media_consumo
+
+escreva ("Insira a distancia total percorrida: ")
+leia (distancia_total)
+
+escreva ("Insira a quantidade de combustível gasto: ")
+leia (total_combustivel)
+
+media_consumo <- (distancia_total / total_combustivel)
+
+escreva ("O consumo médio do automóvel foi de: " + media_consumo)
+
+Fim
