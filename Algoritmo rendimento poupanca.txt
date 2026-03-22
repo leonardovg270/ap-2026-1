@@ -1,0 +1,15 @@
+Algoritmo <rendimento poupanca>
+
+Inicio
+Real: valor_deposito, rendimento, valor_final
+
+escreva ("Digite o valor depositado: ")
+leia (valor_deposito)
+
+rendimento <- valor_deposito * 0.007
+
+valor_final <- valor_deposito + rendimento
+
+escreva ("Valor após 1 mês: R$ " + valor_final)
+
+Fim
